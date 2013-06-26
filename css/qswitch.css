@@ -1,0 +1,150 @@
+.qSwitchMain {
+	height: 30px;
+	width: 120px;
+
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	font-family: Helvetica, Arial, sans-serif;
+	color:  #fff;
+
+	border: 1px solid #999;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+	margin: 10px;	
+
+	/* The following are set in the qSwitch.js:
+	overflow: hidden;
+	z-index: 20;*/
+}
+
+.qSwitchMain2 {
+	height: 30px;
+	width: 140px;
+
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	font-family: Helvetica, Arial, sans-serif;
+	color:  #fff;
+
+	border: solid 1px #777;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+	margin: 10px;	
+
+	/* The following are set in the qSwitch.js:
+	overflow: hidden;
+	z-index: 20;*/
+
+}
+
+
+.qSwitchContainer {
+
+	/* The following are set in the qSwitch.js:
+	height: 100%;
+	position:  absolute; */
+}
+
+.qSwitchHandle {
+	background: -moz-linear-gradient(90deg, #7e7e7e 0%, #c7c7c7 100%), #ccc;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	z-index: 10;
+		
+	
+	/* The following are set in the qSwitch.js:
+	position: absolute;*/
+	background: -webkit-gradient(linear, left bottom, left top, from(#7e7e7e), to(#c7c7c7)), #ccc;
+	border: 1px solid #b7b7b7;
+	-moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.91), 0 1px 2px black;
+	-webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.91), 0 1px 2px black;
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.91), 0 1px 2px black;
+}
+
+.qSwitchLower {
+	
+	/* The following are set in the qSwitch.js:
+	z-index: 1;
+	position: relative;
+	height: 100%;
+	width: 100%; */
+}
+
+.qSwitchOptionA {
+	text-align: center;
+	padding-top: 7px;
+	
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#1ea32e), color-stop(0.607, #14cd3d), to(#1da32e));
+	background-image: -moz-linear-gradient(90deg, #1ea32e 0%, #14cd3d 60.7%, #1da32e 100%);
+	
+	/* The following are set in the qSwitch.js:
+	height: 100%;
+	width:  dynamically generated
+	float: left;*/
+}
+
+.qSwitchOptionB {
+	text-align: center;
+	padding-top: 7px;
+	
+	
+	
+	
+	
+	/* The following are set in the qSwitch.js:
+	height : 100%;
+	width:  synamically generated
+	float: right;*/
+background: -moz-linear-gradient(90deg, #b51a1f 0%, #d01924 60.3%, #b6191f 100%) red;
+	background: -webkit-gradient(linear, left bottom, left top, from(#b51a1f), color-stop(0.6, #d01924), to(#b6191f)) red;
+}
+
+
+
+
+.qSwitchIconOptionA {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 16px;
+    
+    /* The following are set in the qSwitch.js:
+    width: dynamicly generated
+    position:  relative; 
+    height: 100%;
+    margin: 0;
+    float: right;*/
+}
+
+.qSwitchIconOptionA span:before {
+	content: "\f00c"; 
+}
+
+
+.qSwitchIconOptionB {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 16px;
+    
+    /* The following are set in the qSwitch.js:
+    width: dynamicly generated
+    position:  relative; 
+    height: 100%;
+    margin: 0;
+    float: left;*/
+}
+
+.qSwitchIconOptionB span:before {
+	content: "\f00d"; 
+}
+
