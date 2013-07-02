@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Quantum Switch Test</title>
+	
+	<link rel="stylesheet" href="css/qswitch.css" type="text/css">
+	<link rel="stylesheet" href="css/otherqSwitch.css" type="text/css">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="scripts/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src='scripts/qswitch.js'></script>
+	<script>
+		$(document).ready(function(){
+			$(".qSwitch2").qSwitch({classMain: 'qSwitchMain2', classOptionA: 'A2', classOptionB: 'B2'});
+		});
+	</script>
+</head>
+
+<body>
+	<div style='margin : 100px auto 0; width: 500px; color: #333; font-family: Helvetica, Arial, sans-serif;'>
+	<form>
+		<p>To add a qSwitch, put 2 radios in a div and call the qSwitch class on that div.  By default, anything in a div with the class 'qSwitch' will get the treatment. </p>
+		<div class='qSwitch'>
+			<input type='radio' name='Better' value='Yes'>
+			<input type='radio' name='Better' value='No'>
+		</div>
+		<div class='qSwitch2'>
+			<input type='radio' name='Awesome' value='True'>
+			<input type='radio' name='Awesome' value='False'>
+		</div>
+		
+	</form>	
+</body>
+</html>

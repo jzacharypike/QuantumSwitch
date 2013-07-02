@@ -1,0 +1,31 @@
+.qSwitchMain2 {
+	height: 30px;
+	width: 140px;
+
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	font-family: Helvetica, Arial, sans-serif;
+	color:  #fff;
+
+	border: solid 1px #777;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+	margin: 10px;	
+}
+
+.A2 {
+	text-align: center;
+	padding-top: 7px;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.25, #40a8bf), color-stop(0.75, #1365cd));
+	background-image: -moz-linear-gradient(90deg, #40a8bf 25%, #1365cd 75%);
+}
+
+.B2 {
+	text-align: center;
+	padding-top: 7px;
+	background: -moz-linear-gradient(90deg, #af48b6 25%, #6f118b 75%) red;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.25, #af48b6), color-stop(0.75, #6f118b)) red;
+}
+

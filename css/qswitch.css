@@ -19,29 +19,6 @@
 	z-index: 20;*/
 }
 
-.qSwitchMain2 {
-	height: 30px;
-	width: 140px;
-
-	display: inline-block;
-	position: relative;
-	cursor: pointer;
-	font-family: Helvetica, Arial, sans-serif;
-	color:  #fff;
-
-	border: solid 1px #777;
-	-moz-border-radius: 18px;
-	-webkit-border-radius: 18px;
-	border-radius: 18px;
-	margin: 10px;	
-
-	/* The following are set in the qSwitch.js:
-	overflow: hidden;
-	z-index: 20;*/
-
-}
-
-
 .qSwitchContainer {
 
 	/* The following are set in the qSwitch.js:
@@ -50,17 +27,16 @@
 }
 
 .qSwitchHandle {
-	background: -moz-linear-gradient(90deg, #7e7e7e 0%, #c7c7c7 100%), #ccc;
+	background: -moz-linear-gradient(90deg, #e3e3e3 0%, #cbcbcb 100%), #ccc;
 	-moz-border-radius: 100px;
 	-webkit-border-radius: 100px;
 	border-radius: 100px;
-	z-index: 10;
-		
+	z-index: 10;	
 	
 	/* The following are set in the qSwitch.js:
 	position: absolute;*/
-	background: -webkit-gradient(linear, left bottom, left top, from(#7e7e7e), to(#c7c7c7)), #ccc;
-	border: 1px solid #b7b7b7;
+	background: -webkit-gradient(linear, left bottom, left top, from(#e3e3e3), to(#cbcbcb)), #ccc;
+	border: 1px solid #888888;
 	-moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.91), 0 1px 2px black;
 	-webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.91), 0 1px 2px black;
 	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.91), 0 1px 2px black;
@@ -79,8 +55,8 @@
 	text-align: center;
 	padding-top: 7px;
 	
-	background-image: -webkit-gradient(linear, left bottom, left top, from(#1ea32e), color-stop(0.607, #14cd3d), to(#1da32e));
-	background-image: -moz-linear-gradient(90deg, #1ea32e 0%, #14cd3d 60.7%, #1da32e 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.25, #14cd3d), color-stop(0.75, #1ea32e));
+	background-image: -moz-linear-gradient(90deg, #14cd3d 25%, #1ea32e 75%);
 	
 	/* The following are set in the qSwitch.js:
 	height: 100%;
@@ -91,20 +67,15 @@
 .qSwitchOptionB {
 	text-align: center;
 	padding-top: 7px;
-	
-	
-	
-	
+
+	background: -moz-linear-gradient(90deg, #d01924 25%, #b51a1f 75%) red;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.25, #d01924), color-stop(0.75, #b51a1f)) red;
 	
 	/* The following are set in the qSwitch.js:
 	height : 100%;
 	width:  synamically generated
 	float: right;*/
-background: -moz-linear-gradient(90deg, #b51a1f 0%, #d01924 60.3%, #b6191f 100%) red;
-	background: -webkit-gradient(linear, left bottom, left top, from(#b51a1f), color-stop(0.6, #d01924), to(#b6191f)) red;
 }
-
-
 
 
 .qSwitchIconOptionA {
